@@ -17,4 +17,4 @@ pencil_img = cv2.divide(gray_image, Inverted_blurred_img, scale=256.0)
 
 cv2.imshow('Image1',img1)
 cv2.imshow('Image',pencil_img)
-#cv2.waitKeyEx(0)
+cv2.waitKeyEx(0)
